@@ -1,0 +1,24 @@
+@copyright Thibault Perchoc 
+
+A savoir pour utiliser les programmes
+
+Il existe deux types de filtres,
+
+APPUI COURT            ouvre les filtres avec un seul appui sur les touches
+'1' détection de contours 
+'2' seuillage couleur
+'3' noir et blanc 
+
+APPUI LONG             ouvre les filtres si l'on maintient la pression sur la touche
+'1' détection de contours
+'2' noir et blanc
+'3' Seuillage rouge vers jaune
+'4' Filtre extra-terrestre 
+'e' Bilateral (gaussien amélioré)
+'c' Miroir
+'z' Median
+
+Lignes de commandes :
+cd jusqu'au build APPUI_LONG//APPUI_COURT
+./camera_test
+Selection du filtre désiré !
